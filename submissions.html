@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixify - Submissions</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/submissions.css">
+</head>
+<body>
+
+  <!-- Banner -->
+  <div id="banner-general">
+    <div>
+      <a id="banner-pixify" href="index.html">PIXIFY</a>
+    </div>
+    <div>
+      <button id="theme-button" onclick="modeToggle()">Dark Mode</button>
+      <a href="submissions.html">Submissions</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+
+  <!-- Left-side (Header & Image Container) -->
+  <div id="submissions-layout">
+    <div id="layout-left">
+      <h1>2023 SUBMISSIONS</h1>
+      <div id="submissions-container"></div>
+    </div>
+
+    <!-- Submissions Form -->
+    <form id="submissions-form">
+      <h2>SUBMIT YOUR WORK</h2>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="text" name="title" placeholder="Title of Your Entry" required>
+      <input type="text" name="imageOne" placeholder="Image URL One" required>
+      <input type="text" name="imageTwo" placeholder="Image URL Two">
+      <input type="text" name="imageThree" placeholder="Image URL Three">
+      <input type="text" name="imageFour" placeholder="Image URL Four">
+      <input type="text" name="imageFive" placeholder="Image URL Five">
+      <button type="submit" id="submit-button">SUBMIT</button>
+    </form>
+  </div>
+
+  <script src="./scripts/submissions.js"></script>
+</body>
+</html>

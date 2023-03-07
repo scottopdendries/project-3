@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixify - Index</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/details.css">
+</head>
+<body>
+  
+  <!-- Banner -->
+  <div id="banner-general">
+    <div>
+      <a id="banner-pixify" href="index.html">PIXIFY</a>
+    </div>
+    <div>
+      <button id="theme-button" onclick="modeToggle()">Dark Mode</button>
+      <a href="submissions.html">Submissions</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+  
+  <!-- Details Container -->
+  <div id ="details-container">
+    <div id="details-title"></div>
+    <div id="details-name"></div>
+    <div id="details-image"></div>
+    
+    <div id="details-buttons">
+      <button onclick="previous()">Previous</button>
+      <button onclick="next()">Next</button>
+    </div>
+  </div>
+
+  <script src="./scripts/details.js"></script>
+</body>
+</html>

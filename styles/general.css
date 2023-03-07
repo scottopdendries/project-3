@@ -1,0 +1,53 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --navy: #2A3B49;
+  --turquoise: #7BFFE9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  background-color: var(--white);
+  color: var(--black);
+  height: 100vh;
+}
+
+#banner-general {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  background-color: var(--navy);
+  height: 5%;
+  width: 100%;
+  padding: 0 25px;
+}
+
+#banner-pixify {
+  color: var(--turquoise);
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 5px;
+}
+a:visited {
+  color: var(--white);
+}
+
+#theme-button{
+  color: var(--turquoise);
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
+}
